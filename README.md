@@ -20,6 +20,8 @@ Training and evaluation on the synthetic grid happens in the `*.py` files.
 
 `tools.py` contains some preprocessing and exporting functions used in the other scripts.
 
+`environment.yaml` contains a conda environment of all packages used for the training.
+
 !Caveat: The memory requirements of models with interactions range up to 64GB RAM
 
 # Outputs for paper
@@ -33,6 +35,8 @@ The notebooks for producing the figures and tables for the paper can be found in
 `corr_extra_real_grids.ipynb` and `corr_mi_paper.ipynb` are used for the Pearson correlation, R^2 and Mutual information plots.
 
 `shap_paper.ipynb` is used for the SHAP value analysis of the gradient boosted trees models.
+
+For the producing the paper outputs a separate conda environment was used. It can be found at `outputs_paper/output_env.yaml`.
 
 
 
