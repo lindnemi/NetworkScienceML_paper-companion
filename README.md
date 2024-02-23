@@ -6,7 +6,7 @@ The input features and target values are available at:
 The power grid topologies needed for computing the network measures are available at:
 
 
-!Caveat: For this repository to be functional, the absolute and relative paths in the scripts have to be changed.[text](../../cluster/coen/micha/netsci_vs_gnn/shap_paper.ipynb)
+!Caveat: For this repository to be functional, the absolute and relative paths in the scripts have to be changed.
 
 # Training of models
 
