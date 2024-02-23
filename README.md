@@ -26,6 +26,8 @@ Training and evaluation on the synthetic grid happens in the `*.py` files.
 
 During training a model_info.csv is produced for every model. This contains all relevant meta data, as well as the evaluation results. The real European power grid topolgies were added at a later stage of the project. The notebook `eval_extra_real_grids.ipynb` evaluates all models on the real power grid topolgies, and outputs a single dataframe, which contains the model_info of every single model, extended by the evaluation scores on the real grids.
 
+The notebooks for producing the figures and tables for the paper can be found in `outputs_paper`
+
 `model_info_paper.ipynb` reads that dataframe, concatenates the data on the GNNs used for the paper (given in models_paper), and produces most of the tables and figures shown in the paper.
 
 `corr_extra_real_grids.ipynb` and `corr_mi_paper.ipynb` are used for the Pearson correlation, R^2 and Mutual information plots.
